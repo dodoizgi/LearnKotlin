@@ -32,14 +32,18 @@ class HomeFragment : Fragment() {
 
         val imageList = ArrayList<SlideModel>() // Create image list
 
-// imageList.add(SlideModel("String Url" or R.drawable)
-// imageList.add(SlideModel("String Url" or R.drawable, "title") You can add title
+        // imageList.add(SlideModel("String Url" or R.drawable)
+        // imageList.add(SlideModel("String Url" or R.drawable, "title") You can add title
 
         imageList.add(SlideModel("https://kuraldisi.com/wp-content/uploads/2022/12/bilincli-ebeveynin-disiplin-anlayisi-slider.jpg"))
         imageList.add(SlideModel("https://kuraldisi.com/wp-content/uploads/2022/12/kuraldisi-slider-subat-kitabi-cocuk-3.jpg"))
         imageList.add(SlideModel("https://kuraldisi.com/wp-content/uploads/2022/11/Amac_Belirlemek_Workshop.png"))
 
         binding.imageSlider.setImageList(imageList)
+
+        binding.workshopButton.setOnClickListener {
+            findNavController().navigate(R.id.action_HomeFragment_to_EducationFragment)
+        }
     }
 
     override fun onDestroyView() {

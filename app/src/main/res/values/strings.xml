@@ -2,12 +2,23 @@
 <string name="app_name" translatable="false">LearnKotlin</string>
 <string name="action_settings">Ayarlar</string>
 <!-- Strings used for fragments for navigation -->
-<string name="first_fragment_label">First Fragment</string>
-<string name="second_fragment_label">Second Fragment</string>
+<string name="first_fragment_label">Home Fragment</string>
+<string name="second_fragment_label">Education Fragment</string>
 <string name="next">Sırdaki</string>
 <string name="previous">Önceki</string>
 
 <string name="hello_first_fragment">Hello first fragment</string>
 <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 <string name="welcome_text">Kuraldışı Akademi\'ye hoş geldiniz…</string>
+<string name="kuraldisi_text">Kuraldışı</string>
+<string name="educations">Eğitimler</string>
+    <string name="book">Kitap</string>
+    <string name="magazine">dergi</string>
+    <string name="education_calendar">Eğitim Takvimi</string>
+    <string name="face_to_face_educations">Yüz Yüze Eğitimler</string>
+    <string name="online_educations">Online Eğitimler</string>
+    <string name="Consulting">Danışmanlıklar</string>
+    <string name="packages">Paketler</string>
+    <string name="exhibitor_feedback">Katılımcı Görüşleri</string>
+    <string name="instructors_consultants">Eğitmenler/Danışmanlar</string>
 </resources>

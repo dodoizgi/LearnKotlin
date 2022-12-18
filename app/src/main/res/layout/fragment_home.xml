@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeFragment">
+    tools:context=".EducationFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -14,6 +14,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <include layout="@layout/top_bar" />
+
+
             <com.denzcoskun.imageslider.ImageSlider
                 android:id="@+id/image_slider"
                 android:layout_width="match_parent"
@@ -22,6 +25,7 @@
                 app:iss_delay="0"
                 app:iss_error_image="@drawable/error"
                 app:iss_period="1000"
+                android:layout_marginTop="60dp"
                 app:iss_placeholder="@drawable/placeholder"
                 app:iss_selected_dot="@drawable/default_selected_dot"
                 app:iss_unselected_dot="@drawable/default_unselected_dot"
