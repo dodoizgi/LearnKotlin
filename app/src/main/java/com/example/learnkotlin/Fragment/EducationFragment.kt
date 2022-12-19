@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.example.learnkotlin.R
 import com.example.learnkotlin.databinding.FragmentEducationBinding
 
 /**
@@ -31,7 +32,15 @@ class EducationFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        binding.workshopCalendar.setOnClickListener {
+            findNavController().navigate(R.id.action_EducationFragment_to_CalendarEducationFragment)
+        }
+        binding.faceToFaceEducation.setOnClickListener {
+            findNavController().navigate(R.id.action_EducationFragment_to_ListEducationFragment)
+        }
+        binding.onlineEducationButton.setOnClickListener {
+            findNavController().navigate(R.id.action_EducationFragment_to_ListEducationFragment)
+        }
 
     }
 

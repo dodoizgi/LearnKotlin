@@ -15,9 +15,6 @@
         <action
             android:id="@+id/action_HomeFragment_to_EducationFragment"
             app:destination="@id/EducationFragment" />
-        <action
-            android:id="@+id/action_HomeFragment_to_CalendarEducationFragment"
-            app:destination="@id/CalendarEducationFragment" />
     </fragment>
 
     <fragment
@@ -25,19 +22,25 @@
         android:name="com.example.learnkotlin.Fragment.EducationFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_education">
-
-
         <action
-            android:id="@+id/action_EducationFragment_to_HomeFragment"
-            app:destination="@id/HomeFragment" />
+            android:id="@+id/action_EducationFragment_to_ListEducationFragment"
+            app:destination="@id/ListEducationFragment" />
+        <action
+            android:id="@+id/action_EducationFragment_to_CalendarEducationFragment"
+            app:destination="@id/CalendarEducationFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/CalendarEducationFragment"
         android:name="com.example.learnkotlin.Fragment.CalendarEducationsFragment"
         android:label="CalendarEducationFragment"
-        tools:layout="@layout/fragment_calendar_educations">
+        tools:layout="@layout/fragment_calendar_educations"/>
 
+    <fragment
+        android:id="@+id/ListEducationFragment"
+        android:name="com.example.learnkotlin.Fragment.ListEducationFragment"
+        android:label="ListEducationFragment"
+        tools:layout="@layout/fragment_list_education">
 
     </fragment>
 </navigation>

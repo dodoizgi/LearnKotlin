@@ -21,6 +21,8 @@
     <string name="packages">Paketler</string>
     <string name="exhibitor_feedback">Katılımcı Görüşleri</string>
     <string name="instructors_consultants">Eğitmenler/Danışmanlar</string>
+    <string name="education_explanation_text">Başkaları size, üzülmenize ya da kırılmanıza neden olacak şekilde davranıyor mu? Uyarmanıza rağmen sık sık hoşlanmadığınız davranışlara muhatap oluyor musunuz? Emin olun, bunu onlara öğrettiğiniz için size böyle davranıyorlar.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

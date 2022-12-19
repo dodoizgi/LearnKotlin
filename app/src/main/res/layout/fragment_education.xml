@@ -62,6 +62,7 @@ tools:context=".Fragment.HomeFragment">
                     android:baselineAligned="false">
 
                     <LinearLayout
+                        android:id="@+id/workshopCalendar"
                         android:layout_width="0dp"
                         android:layout_weight="0.5"
                         android:layout_height="match_parent"
@@ -91,6 +92,7 @@ tools:context=".Fragment.HomeFragment">
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/faceToFaceEducation"
                         android:layout_width="0dp"
                         android:layout_weight="0.5"
                         android:layout_height="match_parent"
@@ -127,6 +129,7 @@ tools:context=".Fragment.HomeFragment">
                     android:baselineAligned="false">
 
                     <LinearLayout
+                        android:id="@+id/onlineEducationButton"
                         android:layout_width="0dp"
                         android:layout_weight="0.5"
                         android:layout_height="match_parent"
@@ -156,6 +159,7 @@ tools:context=".Fragment.HomeFragment">
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/consultationsButton"
                         android:layout_width="0dp"
                         android:layout_weight="0.5"
                         android:layout_height="match_parent"

@@ -21,6 +21,5 @@
     <string name="packages">Packages</string>
     <string name="exhibitor_feedback">Exhibitor Feedback</string>
     <string name="instructors_consultants">Instructors/Consultants</string>
-
-
+    <string name="education_explanation_text">Başkaları size, üzülmenize ya da kırılmanıza neden olacak şekilde davranıyor mu? Uyarmanıza rağmen sık sık hoşlanmadığınız davranışlara muhatap oluyor musunuz? Emin olun, bunu onlara öğrettiğiniz için size böyle davranıyorlar.</string>
 </resources>

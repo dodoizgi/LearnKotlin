@@ -45,9 +45,6 @@ class HomeFragment : Fragment() {
         binding.workshopButton.setOnClickListener {
             findNavController().navigate(R.id.action_HomeFragment_to_EducationFragment)
         }
-        binding.bookButton.setOnClickListener {
-            findNavController().navigate(R.id.action_HomeFragment_to_CalendarEducationFragment)
-        }
     }
 
     override fun onDestroyView() {

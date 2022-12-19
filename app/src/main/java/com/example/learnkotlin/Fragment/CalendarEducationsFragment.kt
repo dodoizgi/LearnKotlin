@@ -16,7 +16,6 @@ class CalendarEducationsFragment : Fragment() {
 
     private var _binding: FragmentCalendarEducationsBinding? = null
     private val binding get() = _binding!!
-    private var adapter: CalendarAdapter? = null
 
 
     override fun onCreateView(
@@ -35,8 +34,8 @@ class CalendarEducationsFragment : Fragment() {
 
         data.add(education)
         data.add(education2)
-        binding.recylerView.layoutManager = LinearLayoutManager(context, RecyclerView.VERTICAL,false)
-        binding.recylerView.adapter = CalendarAdapter(data)
+        binding.recyclerView.layoutManager = LinearLayoutManager(context, RecyclerView.VERTICAL,false)
+        binding.recyclerView.adapter = CalendarAdapter(data)
     }
 
     override fun onDestroyView() {
