@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/calendar_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/teal"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/calendar_box">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/startTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10.00"
+                android:textColor="#343434"
+                android:textSize="35sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/dayText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="Saturday"
+                android:textColor="#343434"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/topCalendarText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17 December"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dayText" />
+
+            <TextView
+                android:id="@+id/countDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 Day"
+                android:textSize="15dp"
+                android:layout_marginEnd="5dp"
+                android:textColor="#343434"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amaç Belirlemek ve İnisiyatif Alabilmek"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/teacherText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EĞİTMENLER: Nil Gün, Saim Koç"
+            android:textColor="#737373"
+            android:textStyle="normal"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/dateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EĞİTİM TARİHİ: 17 – 18 – 24 – 25  Aralık 2022"
+            android:textColor="#737373"
+            android:textStyle="normal"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/hourText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10.00-17.00"
+            android:textColor="#737373"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:gravity="end"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

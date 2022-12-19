@@ -4,7 +4,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-tools:context=".HomeFragment">
+tools:context=".Fragment.HomeFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -85,7 +85,7 @@ tools:context=".HomeFragment">
                             android:gravity="center"
                             android:text="@string/education_calendar"
                             android:textColor="@color/dark_blue"
-                            android:textSize="26sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -114,7 +114,7 @@ tools:context=".HomeFragment">
                             android:gravity="center"
                             android:text="@string/face_to_face_educations"
                             android:textColor="@color/dark_blue"
-                            android:textSize="26sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -150,7 +150,7 @@ tools:context=".HomeFragment">
                             android:gravity="center"
                             android:text="@string/online_educations"
                             android:textColor="@color/dark_blue"
-                            android:textSize="26sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -179,7 +179,7 @@ tools:context=".HomeFragment">
                             android:gravity="center"
                             android:text="@string/Consulting"
                             android:textColor="@color/dark_blue"
-                            android:textSize="26sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -215,7 +215,7 @@ tools:context=".HomeFragment">
                             android:gravity="center"
                             android:text="@string/packages"
                             android:textColor="@color/dark_blue"
-                            android:textSize="26sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -244,7 +244,7 @@ tools:context=".HomeFragment">
                             android:gravity="center"
                             android:text="@string/exhibitor_feedback"
                             android:textColor="@color/dark_blue"
-                            android:textSize="26sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -254,6 +254,7 @@ tools:context=".HomeFragment">
                     android:layout_width="match_parent"
                     android:layout_height="220dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
                     android:baselineAligned="false">
 
                     <LinearLayout
@@ -281,7 +282,7 @@ tools:context=".HomeFragment">
                             android:gravity="center"
                             android:text="@string/instructors_consultants"
                             android:textColor="@color/dark_blue"
-                            android:textSize="26sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
 
                     </LinearLayout>

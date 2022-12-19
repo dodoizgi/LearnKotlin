@@ -1,4 +1,4 @@
-package com.example.learnkotlin
+package com.example.learnkotlin.Fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.denzcoskun.imageslider.models.SlideModel
+import com.example.learnkotlin.R
 import com.example.learnkotlin.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
@@ -43,6 +44,9 @@ class HomeFragment : Fragment() {
 
         binding.workshopButton.setOnClickListener {
             findNavController().navigate(R.id.action_HomeFragment_to_EducationFragment)
+        }
+        binding.bookButton.setOnClickListener {
+            findNavController().navigate(R.id.action_HomeFragment_to_CalendarEducationFragment)
         }
     }
 

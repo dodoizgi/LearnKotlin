@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/HomeFragment"
-        android:name="com.example.learnkotlin.HomeFragment"
+        android:name="com.example.learnkotlin.Fragment.HomeFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_home">
 
@@ -15,10 +15,14 @@
         <action
             android:id="@+id/action_HomeFragment_to_EducationFragment"
             app:destination="@id/EducationFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_CalendarEducationFragment"
+            app:destination="@id/CalendarEducationFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/EducationFragment"
-        android:name="com.example.learnkotlin.EducationFragment"
+        android:name="com.example.learnkotlin.Fragment.EducationFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_education">
 
@@ -26,5 +30,14 @@
         <action
             android:id="@+id/action_EducationFragment_to_HomeFragment"
             app:destination="@id/HomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/CalendarEducationFragment"
+        android:name="com.example.learnkotlin.Fragment.CalendarEducationsFragment"
+        android:label="CalendarEducationFragment"
+        tools:layout="@layout/fragment_calendar_educations">
+
+
     </fragment>
 </navigation>

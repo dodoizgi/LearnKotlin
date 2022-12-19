@@ -50,7 +50,7 @@
             android:clickable="false"
             android:scaleType="centerInside"
             android:visibility="visible"
-            app:srcCompat="@drawable/side_line"
+            app:srcCompat="@drawable/ic_side_line"
             app:tint="@color/white" />
 
     </RelativeLayout>
