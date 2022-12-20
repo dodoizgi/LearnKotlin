@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".Fragment.ConsultingFragment">
+    tools:context=".Fragment.PackagesFragment">
 
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView"
@@ -28,16 +28,16 @@
                 <com.google.android.material.imageview.ShapeableImageView
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:background="@drawable/aile_ve_iliskiler"
+                    android:background="@drawable/kuraldisi_akademi_package"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:strokeColor="@color/white"
+                    app:strokeColor="@color/dark_blue"
                     app:strokeWidth="1dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Aile ve İlişkiler Koçluğu"
+                    android:text="Kuraldışı Akademi Paketi"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
             </LinearLayout>
@@ -51,16 +51,16 @@
                 <com.google.android.material.imageview.ShapeableImageView
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:background="@drawable/egitim_ogrenci_koclugu"
+                    android:background="@drawable/yasam_okulu_package"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:strokeColor="@color/white"
+                    app:strokeColor="@color/dark_blue"
                     app:strokeWidth="1dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Eğitim ve Öğrenci Koçluğu"
+                    android:text="Yaşam Okulu Paketi"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
             </LinearLayout>
@@ -69,46 +69,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-
                 android:orientation="vertical">
 
                 <com.google.android.material.imageview.ShapeableImageView
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:background="@drawable/butunsel_kinesiyoloji"
+                    android:background="@drawable/piki_package"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:strokeColor="@color/white"
+                    app:strokeColor="@color/dark_blue"
                     app:strokeWidth="1dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Bütünsel Kinesiyoloji Danışmanlığı"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-
-                android:orientation="vertical">
-
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:background="@drawable/kariyer_planlama"
-                    app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:strokeColor="@color/white"
-                    app:strokeWidth="1dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Kariyer Planlama Danışmanlığı"
+                    android:text="Yaşam Okulu Paketi"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
             </LinearLayout>
@@ -120,7 +95,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/education_list_box"
+        android:background="@drawable/packages_box"
         android:layout_margin="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" >
@@ -134,7 +109,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/consulting_text"
+                android:text="@string/package_text"
                 android:textColor="@color/black"
                 android:textSize="16sp"/>
 

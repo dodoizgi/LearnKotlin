@@ -28,6 +28,9 @@
         <action
             android:id="@+id/action_EducationFragment_to_CalendarEducationFragment"
             app:destination="@id/CalendarEducationFragment" />
+        <action
+            android:id="@+id/action_EducationFragment_to_ConsultingFragment"
+            app:destination="@id/ConsultingFragment" />
     </fragment>
 
     <fragment
@@ -40,7 +43,12 @@
         android:id="@+id/ListEducationFragment"
         android:name="com.example.learnkotlin.Fragment.ListEducationFragment"
         android:label="ListEducationFragment"
-        tools:layout="@layout/fragment_list_education">
+        tools:layout="@layout/fragment_list_education"/>
 
-    </fragment>
+    <fragment
+        android:id="@+id/ConsultingFragment"
+        android:name="com.example.learnkotlin.Fragment.ConsultingFragment"
+        android:label="ConsultingFragment"
+        tools:layout="@layout/fragment_consulting"/>
+
 </navigation>

@@ -41,6 +41,9 @@ class EducationFragment : Fragment() {
         binding.onlineEducationButton.setOnClickListener {
             findNavController().navigate(R.id.action_EducationFragment_to_ListEducationFragment)
         }
+        binding.consultationsButton.setOnClickListener {
+            findNavController().navigate(R.id.action_EducationFragment_to_ConsultingFragment)
+        }
 
     }
 
